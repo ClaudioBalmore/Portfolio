@@ -8,33 +8,33 @@
             <div class="w-2.5 h-px bg-gray"></div>
             <h2 class="text-xs font-primary text-gray tracking-[0.2em]">Formación</h2>
           </div>
-          <p class="text-2xl font-primary pt-4">
+          <p class="text-3xl font-primary pt-4">
             Mi stack, estudios y certificaciones.
           </p>
           <div>
-            <p class="text-xs mt-4 text-gray font-secondary">
+            <p class="text-sm mt-4 text-gray font-secondary">
               Comencé a desarrollar sitios web el 2023 como un hobby. Cada vez fui aprendiendo más, hasta que me di cuenta que realmente disfruto creando con código.
             </p>
           </div>
         </div>
 
         <div class="max-w-80">
-          <p class="text-2xl font-primary">
+          <p class="text-3xl font-primary">
             Mi foco es crear <span class="text-secondary">software</span> que resuelva <span class="text-secondary">problemas reales</span>.
           </p>
-          <div class="text-xs mt-4 text-gray font-secondary">
+          <div class="text-sm mt-4 text-gray font-secondary">
             <p>
               Me gusta especialmente el backend, aunque también disfruto el frontend y el diseño de interfaces.
             </p>
-            <p class="text-xs mt-2">
-              Actualmente tengo más experiencia en desarrollo web, pero me gustaría expandir mis conocimientos en desarrollo mobile e integración de inteligencia artificial.
+            <p class="text-sm mt-2">
+              Actualmente tengo más experiencia en desarrollo web, pero me gustaría expandir mis conocimientos en desarrollo mobile e integraciones con inteligencia artificial.
             </p>
           </div>
         </div>
       </div>
 
       <div class="my-4">
-        <p class="text-2xl font-primary text-center mt-10">Tecnologías predominantes</p>
+        <p class="text-xl font-primary text-center mt-10">Tecnologías predominantes</p>
         <div class="flex gap-12 justify-center items-center flex-wrap mt-8">
           <tech-icon 
             v-for="tech in coreTechs" 
@@ -45,7 +45,7 @@
           />
         </div>
 
-        <p class="text-2xl font-primary text-center mt-10">Tecnologías en práctica</p>
+        <p class="text-xl font-primary text-center mt-10">Tecnologías en práctica</p>
         <div class="flex gap-12 justify-center items-center flex-wrap mt-8">
           <tech-icon 
             v-for="tech in learningTechs" 

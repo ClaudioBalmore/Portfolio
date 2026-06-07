@@ -48,14 +48,12 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 </script>
 
 <template>
-  <!-- Wrapper con el fade-out en el borde inferior -->
   <div
     :class="[
       'sticky top-0 z-50 transition-all duration-300',
       isScrolled && 'backdrop-blur-sm'
     ]"
   >
-    <!-- Fondo semitransparente separado del mask para que no afecte al contenido -->
     <div
       v-if="isScrolled"
       class="absolute inset-0 bg-background-light/60 pointer-events-none"
@@ -65,7 +63,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
       
     >
       <a href="#" @click="scrollToSection($event, '#inicio')">
-        <div class="text-2xl font-logo text-secondary">BLMR</div>
+        <div class="text-3xl font-logo text-secondary">BLMR</div>
       </a>
 
       <ul class="flex gap-6 font-primary">
@@ -74,14 +72,13 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
             :href="link.href"
             @click="scrollToSection($event, link.href)"
             :class="[
-              'relative flex flex-col items-center gap-1.5 text-sm transition-colors duration-300',
+              'relative flex flex-col items-center gap-1.5 text-md transition-colors duration-300',
               activeSection === link.href.replace('#', '')
                 ? 'text-white-smoke'
                 : 'text-gray hover:text-white-smoke'
             ]"
           >
             {{ link.label }}
-            <!-- Dot debajo, centrado -->
             <span
               :class="[
                 'block w-1.5 h-1.5 rounded-full transition-all duration-300',

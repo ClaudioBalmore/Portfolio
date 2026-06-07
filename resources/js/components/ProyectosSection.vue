@@ -6,7 +6,7 @@
                 <h2 class="text-xs font-primary text-gray tracking-[0.2em]">Proyectos</h2>
             </div>
 
-            <p class="text-2xl font-primary pt-4 max-w-80">
+            <p class="text-3xl font-primary pt-4 max-w-80">
                 Mis proyectos más destacados.
             </p>
 

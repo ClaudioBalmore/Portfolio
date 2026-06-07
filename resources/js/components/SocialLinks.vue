@@ -1,12 +1,13 @@
 <template>
-  <div class="flex gap-4 justify-left items-center text-gray">
+  <div class="flex gap-3 justify-left items-center text-gray">
     <a 
       v-for="link in links" 
       :key="link.name"
       :href="link.url" 
-      target="_blank" 
+      :target="_blank" 
       class="group"
       :rel="link.name !== 'CV' ? 'noopener noreferrer' : undefined"
+      :download="link.name === 'CV' ? 'Claudio_Nunez_CV.pdf' : undefined"
     >
       <svg width="24" height="24" class="group-hover:text-secondary duration-500">
         <use :xlink:href="`/assets/sprite.svg#${link.icon}`"></use>
@@ -29,8 +30,13 @@ const links = [
     icon: 'linkedin'
   },
   {
+    name: 'Email',
+    url: 'mailto:cnunezcerda@gmail.com',
+    icon: 'mail'
+  },
+  {
     name: 'CV',
-    url: '#',
+    url: '/assets/docs/Claudio_Balmore_Dev.pdf',
     icon: 'cv'
   }
 ];
