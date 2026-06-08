@@ -2,7 +2,7 @@
   <section id="formacion" class="bg-background w-full p-4">
     <div class="max-w-3xl mx-auto py-8">
       
-      <div class="flex gap-5 justify-between">
+      <div class="flex flex-wrap gap-5 justify-between">
         <div class="max-w-80">
           <div class="flex gap-2 justify-start items-center">
             <div class="w-2.5 h-px bg-gray"></div>
@@ -57,9 +57,9 @@
         </div>
         </div>
 
-      <div class="flex gap-6 justify-center mt-8">
-        <div class="w-70 h-60 bg-background-light p-4 text-xs hover:bg-background-darker duration-500 flex flex-col group">
-          <div class="flex-1 flex justify-center items-center opacity-0 group-hover:opacity-100 duration-500 h-30">
+      <div class="flex flex-wrap gap-6 justify-center mt-8">
+        <div class="w-60 h-60 bg-background-light p-4 text-xs hover:bg-background-darker duration-500 flex flex-col group">
+          <div class="flex-1 flex justify-center items-center sm:opacity-0 opacity-100 group-hover:opacity-100 duration-500 h-30">
             <img src="/assets/img/logo-iacc.webp" alt="IACC Logo" loading="lazy" class="w-30 h-auto">
           </div>
           <div class="flex gap-4 items-center h-16">
@@ -74,8 +74,8 @@
           </div>
         </div>
 
-        <div class="w-70 h-60 bg-background-light p-4 text-xs hover:bg-background-darker duration-500 flex flex-col group">
-          <div class="flex-1 flex justify-center items-center opacity-0 group-hover:opacity-100 duration-500 h-30">
+        <div class="w-60 h-60 bg-background-light p-4 text-xs hover:bg-background-darker duration-500 flex flex-col group">
+          <div class="flex-1 flex justify-center items-center sm:opacity-0 opacity-100 group-hover:opacity-100 duration-500 h-30">
             <img src="/assets/img/aws-cloud-practitioner.webp" alt="AWS Cloud Practitioner Logo" loading="lazy" class="w-30 h-auto object-contain">
           </div>
           <div class="flex gap-4 items-center h-16">
@@ -90,7 +90,7 @@
           </div>
         </div>
 
-        <div class="w-70 h-60 bg-background-light p-4 text-xs hover:bg-background-darker duration-500 flex flex-col group">
+        <div class="w-60 h-60 bg-background-light p-4 text-xs hover:bg-background-darker duration-500 flex flex-col group">
           <div class="flex-1 flex justify-center items-center opacity-0 group-hover:opacity-100 duration-500 h-30">
             <svg width="160" height="160">
               <use xlink:href="/assets/sprite.svg#eclass" class="w-30 h-auto object-contain"></use>

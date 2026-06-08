@@ -1,20 +1,20 @@
 <template>
-  <section id="hero" class="min-h-105 max-w-3xl mx-auto flex justify-center px-4">
+  <section id="hero" class="min-h-190 sm:min-h-105 max-w-3xl mx-auto flex flex-wrap sm:flex-nowrap justify-center px-4">
     <div class="relative w-100">
-      <div class="absolute top-22 left-0">
+      <div class="absolute top-60 sm:top-22 left-0">
         <h1 class="text-6xl font-primary font-bold">Claudio<br>Balmore.</h1>
         <div class="w-9 h-1 bg-secondary"></div>
       </div>
       
-      <div class="absolute bottom-8 left-0">
+      <div class="absolute top-95 sm:top-88 left-0">
         <social-links></social-links>
       </div>
 
-      <img src="/assets/img/ClaudBalmore.webp" loading="lazy" alt="Claudio Balmore" class="min-w-100 mx-auto absolute -top-13 left-25 -z-1">
+      <img src="/assets/img/ClaudBalmore.webp" loading="lazy" alt="Claudio Balmore" class="w-80 sm:min-w-86 mx-auto absolute -top-7 sm:-top-13 left-8 sm:left-25 -z-1 object-cover sm:mask-b-from-100% mask-b-from-80% mask-b-to-100%">
     </div>
 
-    <div class="relative w-90">
-      <div class="absolute top-24 left-10 text-left">
+    <div class="relative w-90 h-80">
+      <div class="absolute top-60 sm:top-24 sm:left-10 text-left">
         <div class="flex gap-2 justify-start items-center">
           <div class="w-2.5 h-px bg-gray"></div>
           <h2 class="text-xs font-primary text-gray tracking-[0.2em]">Introducción</h2>

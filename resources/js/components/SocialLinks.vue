@@ -36,7 +36,7 @@ const links = [
   },
   {
     name: 'CV',
-    url: '/assets/docs/Claudio_Balmore_Dev.pdf',
+    url: '/assets/docs/Claudio_Balmore_CV_Dev.pdf',
     icon: 'cv'
   }
 ];

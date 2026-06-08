@@ -9,9 +9,9 @@
             <p class="text-3xl font-primary pt-4 max-w-80">
                 Mis proyectos más destacados.
             </p>
-
-            <project-card></project-card>
-
+            <div class="flex flex-wrap gap-5 justify-center pt-6">
+                <project-card></project-card>
+            </div>
         </div>
            
     </section>
