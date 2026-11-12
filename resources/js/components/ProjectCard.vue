@@ -44,7 +44,7 @@ const cards = [
         technologies: 'Laravel - Vue.js - Tailwind CSS - MySQL',
         img1: '/assets/img/DateLucaLanding.webp',
         img2: '/assets/img/DateLucaResponsive.webp',
-        url: 'https://mistyrose-skunk-145642.hostingersite.com/'
+        url: 'https://dateluca.claudbalmore.dev/'
     }
     ,
     {
